@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Tarea 4: Glosario de comandos GIT</title>
+</head>
+<body>
+    <main>
+        <h1 style="text-align: center;">Glosario de comandos GIT</h1>
+    <table border="1">
+        <tr>
+            <th>Comando</th>
+            <th>Breve Descripción</th>
+            <th>Parámetros</th>
+            <th>Descripción de los Parámetros</th>
+            <th>Ejemplo</th>
+        </tr>
+        <tr>
+            <td>git init</td>
+            <td>Inicializa un repositorio Git</td>
+            <td>Sin parametros</td>
+            <td>Crea un nuevo repositorio Git en el directorio actual.</td>
+            <td>git init</td>
+        </tr>
+        <tr>
+            <td>git clone</td>
+            <td>Clona un repositorio Git existente</td>
+            <td>URL del repositorio</td>
+            <td>Copia un repositorio Git remoto en tu máquina local.</td>
+            <td>git clone https://github.com/Hombrux/u1-ejerciciogit</td>
+        </tr>
+        <tr>
+            <td>git add</td>
+            <td>Añade cambios al área de preparación</td>
+            <td>Nombre de archivo(s)</td>
+            <td>Añade archivos modificados o nuevos al área de preparación para ser confirmados.</td>
+            <td>git add archivo.txt</td>
+        </tr>
+        <tr>
+            <td>git commit</td>
+            <td>Registra cambios en el repositorio</td>
+            <td>-m "Mensaje de confirmación"</td>
+            <td>Guarda los cambios confirmados en el historial del repositorio.</td>
+            <td>git commit -m "Agrega archivo.txt"</td>
+        </tr>
+        <tr>
+            <td>git status</td>
+            <td>Muestra el estado de los archivos en el repositorio</td>
+            <td>Sin parametros</td>
+            <td>Muestra el estado actual de los archivos en el repositorio, incluyendo cambios sin confirmar.</td>
+            <td>git status</td>
+        </tr>
+        <tr>
+            <td>git log</td>
+            <td>Muestra el historial de confirmaciones</td>
+            <td>Sin parametros  </td>
+            <td>Muestra el historial de confirmaciones en el repositorio, incluyendo información sobre autores y fechas.</td>
+            <td>git log</td>
+        </tr>
+        <tr>
+            <td>git branch</td>
+            <td>Muestra la lista de ramas</td>
+            <td>-r para ver ramas remotas</td>
+            <td>Muestra la lista de ramas en el repositorio. Con la opción -r, muestra ramas remotas.</td>
+            <td>git branch</td>
+        </tr>
+        <tr>
+            <td>git checkout</td>
+            <td>Cambia de rama o restaura archivos</td>
+            <td>Nombre de la rama o -- nombre del archivo</td>
+            <td>Permite cambiar de rama o restaurar archivos desde el historial.</td>
+            <td>git checkout nombre_de_rama</td>
+        </tr>        
+    </table>
+</main>
+</body>
+</html>
